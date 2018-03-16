@@ -1,0 +1,21 @@
+*+html div#header div.searchForm div.text {margin-right: 0;}
+
+*+html div.searchForm div.submit input {position: relative;top: 1px;}
+
+*+html div.hospitals dl dd ul li {
+    display: inline;
+    float: none;
+    zoom: 1;
+}
+
+*+html div.hospitals {zoom: 1;}
+
+*+html div#contributeWindow div.radio legend {
+position: absolute;
+left: 12px;
+}
+*+html div#contributeWindow div.radio input,
+*+html div#contributeWindow div.radio label {
+    position: relative;
+    left: 100px;
+}

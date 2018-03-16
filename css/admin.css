@@ -1,0 +1,574 @@
+@charset "utf-8";
+@import 'reset.css';
+
+html {
+    background: #FAFAFA;
+}
+
+body {
+    font-size: 11px;
+    width: 100%;
+    color: #000;
+}
+
+a {
+    color: #666;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+div.view dl dt,
+div.input label,
+div.input fieldset legend {
+    font-weight: bold;
+}
+
+div.submit input {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #CCC;
+    padding: 4px 18px 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E8E8E8));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    -moz-box-shadow: 0px 1px 3px #ccc;
+    -webkit-box-shadow: 0px 1px 3px #ccc;
+    box-shadow: 0px 1px 3px #ccc;
+}
+
+table {
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    margin: 10px 0;
+    background: #FFF;
+}
+
+table tr th {
+    white-space: nowrap;
+}
+
+table tr th,
+table tr td {
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 4px 10px;
+}
+
+table tr td.thumb {
+    text-align: center;
+    padding: 0;
+}
+
+textarea {
+    height: 6em;
+}
+
+select#PrefecturePrefecture {
+    padding: 10px;
+    font-size: 14px;
+    height: 300px;
+}
+
+div.text label {
+    padding: 5px 0 2px;
+/*     float: left; */
+/*     width: 20em; */
+/*     text-align: center; */
+/*     background: #ccc; */
+
+/*
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+*/
+}
+
+div#wrapper {
+    margin: 10px;
+    border: 5px solid #FFF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #ccc;
+    -moz-box-shadow: 0px 2px 5px #ccc;
+    -webkit-box-shadow: 0px 2px 5px #ccc;
+    box-shadow: 0px 2px 5px #ccc;
+    background: #F9F9F9;
+}
+
+div#header {
+    position: relative;
+    padding: 10px 0 0;
+    border-bottom: 1px solid #CCC;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    -webkit-border-top-left-radius: 9px;
+    -webkit-border-top-right-radius: 9px;
+    -moz-border-radius-topleft: 9px;
+    -moz-border-radius-topright: 9px;
+    background: #1991d6;
+    background: -moz-linear-gradient(top, #7ccff9, #1991d6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#7ccff9), to(#1991d6));
+	-pie-background: linear-gradient(#7ccff9, #1991d6);
+}
+
+div#header h1 {
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    text-shadow: 1px 1px 3px #333;
+}
+
+div#header ul#gNavi {
+    position: relative;
+    top: 1px;
+    margin: 0 0 0 15px;
+}
+
+div#header ul#gNavi li {
+    float: left;
+    margin: 0 2px;
+}
+
+div#header ul#gNavi li#logout {
+    float: right;
+    margin-right: 20px
+}
+
+div#header ul#gNavi li a {
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    padding: 2px 12px 0;
+    border: 1px solid #F9F9F9;
+    border-bottom-color: #CCC;
+    text-decoration: none;
+    background: #F9F9F9;
+    background: -moz-linear-gradient(top, #EEEEEE, #F9F9F9);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#F9F9F9));
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+}
+
+div#header ul#gNavi li a:hover,
+div#header ul#gNavi li.current a {
+    border-bottom-color: #F9F9F9;
+}
+
+div#header ul#gNavi li.current a {
+    background: #F9F9F9;
+    background: -moz-linear-gradient(top, #FFFFFF, #F9F9F9);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F9F9F9));
+}
+
+div#header p#loginname {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FFF;
+}
+
+div#content {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+
+div#content h2,
+div.actions h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+div.form,
+div.index,
+div.view {
+    margin-left: 180px;
+    padding:20px 10px;
+}
+
+div.actions {
+    position: absolute;
+    top: 0px;
+    width:160px;
+    padding: 20px 10px;
+}
+
+div.actions h3 {
+    padding-top:0;
+}
+
+div.actions ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.actions li {
+    margin: 5px 0;
+    list-style-type: none;
+    white-space: nowrap;
+    padding: 0;
+}
+
+div.actions form {
+    margin-top: 40px;
+}
+
+div.actions form div.text input {
+    width: 93%;
+    margin-bottom: 10px;
+}
+
+div.actions form select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    -webkit-border-bottom-left-radius: 9px;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius-bottomleft: 9px;
+    -moz-border-radius-bottomright: 9px;
+    background: #1991d6;
+    background: -moz-linear-gradient(top, #7ccff9, #1991d6);
+    background: -webkit-gradient(linear, left top, left bottom, from(#7ccff9), to(#1991d6));
+	-pie-background: linear-gradient(#7ccff9, #1991d6);
+}
+
+#footer * {
+    color: #FFF;
+}
+
+div#flashMessage {
+    margin-left: 190px;
+    padding: 10px 0;
+    color: #666;
+}
+
+div.error-message {
+    margin-top: 0.2em;
+    color: #F00;
+}
+
+div.paging {
+    margin: 1em 0;
+}
+
+div.paging span {
+    font-size: 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: -moz-linear-gradient(top, #EEE, #BBB);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#BBB));
+    -moz-box-shadow: 1px 1px 2px #E7E7E7;
+    -webkit-box-shadow: 1px 1px 2px #E7E7E7;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 26px;
+    width: 2.5em;
+    margin: 10px 5px;
+    color: #666;
+}
+
+div.paging span a {
+    position: relative;
+    display: block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 26px;
+    background: -moz-linear-gradient(top, #999, #666);
+    background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#666));
+}
+
+div.paging span a:hover {
+    background: -moz-linear-gradient(top, #EEE, #BBB);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#BBB));
+}
+
+div.paging span.disabled {
+    display: none;
+}
+
+td.actions {
+    white-space: nowrap;
+}
+
+div.actions ul li a,
+td.actions a {
+    display: block;
+    float: left;
+    margin: 0 2px;
+    text-decoration: none;
+    padding:2px 5px;
+    font-weight: bold;
+    padding: 4px 8px;
+    color:#FFF;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    text-decoration:none;
+    background: #666;
+    background: -moz-linear-gradient(top, #999, #666);
+    background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#666));
+}
+
+div.actions ul li a:hover,
+td.actions a:hover {
+    color: #333;
+    background: #BBB;
+    background: -moz-linear-gradient(top, #EEE, #BBB);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#BBB));
+}
+
+div.actions ul li a {
+    float: none;
+    margin: 10px 0;
+}
+
+div.view dl {
+    margin: 10px 0;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 10px;
+}
+
+div.view dl dt {
+    float: left;
+    width: 20em;
+}
+
+div.view dl dd {
+    margin-left: 20em;
+}
+
+div.related {
+    margin: 30px 0;
+}
+
+div.form div.input {
+    margin: 20px 0;
+}
+
+div.form div.existing div.input {
+    margin: 0;
+}
+
+div.form fieldset legend {
+    display: block;
+    padding-bottom: 5px;
+}
+
+div.form fieldset input[type=radio],
+div.form div.input fieldset label {
+    display: inline;
+    margin-right: 2px;
+}
+
+div.form div.input fieldset label {
+    margin-right: 30px;
+}
+
+div.form div.text input,
+div.form div.password input,
+div.form div.textarea textarea {
+    border: 1px solid #CCC;
+    width: 70%;
+}
+
+div.form div.input label {
+    display: block;
+}
+
+div.form div.checkbox label {
+    display: inline;
+}
+
+div.form div.checkbox input[type=checkbox] {
+    margin-right: 4px;
+}
+
+div.form div.text label,
+div.form div.password label {
+    display: block;
+    
+}
+
+div.form div.submit {
+    margin: 20px 0;
+}
+
+td.thumbnail {
+    padding: 0;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 8px 5px;
+    outline: none;
+}
+
+input.search-text {
+    float: left;
+    margin-right: 6px;
+}
+
+div.pay {
+    float: left;
+    margin-right: 1em;
+}
+
+body#login.users div.form,
+body.histories div.index {
+    margin-left: 0;
+}
+
+body#edit.comments div.textarea textarea {
+    height: 20em;
+}
+
+body#add label a {
+    position: relative;
+    top: -4px;
+    z-index: 1;
+    border: 1px solid #EFA83E;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 4px 2px;
+    outline: none;
+    margin-left: 1em;
+    text-decoration: none;
+    color: #999;
+    background: #EFA83E;
+    border: 1px solid #CCC;
+    padding: 4px 18px 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #E8E8E8));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    background-image: linear-gradient(top, #FFFFFF 0%, #E8E8E8 100%);
+    -moz-box-shadow: 0px 1px 3px #ccc;
+    -webkit-box-shadow: 0px 1px 3px #ccc;
+    box-shadow: 0px 1px 3px #ccc;
+}
+
+body#add label a:hover {
+    background-image: -ms-linear-gradient(top, #E8E8E8 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(top, #E8E8E8 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(top, #E8E8E8 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E8E8E8), color-stop(1, #FFFFFF));
+    background-image: -webkit-linear-gradient(top, #E8E8E8 0%, #FFFFFF 100%);
+    background-image: linear-gradient(top, #E8E8E8 0%, #FFFFFF 100%);
+    -moz-box-shadow: 0px 1px 1px #ccc;
+    -webkit-box-shadow: 0px 1px 1px #ccc;
+    box-shadow: 0px 1px 1px #ccc;
+}
+
+body#add label span {
+    display: none;
+}
+
+div.block {
+    padding: 20px;
+    background: #EEE;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+div.block h3 {
+    margin: -20px -20px 0;
+    background: #333;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px 5px;
+}
+
+body#tree_display div.view {
+    font-size: 16px;
+}
+
+body#tree_display div.view ul li {
+    line-height: 2;
+    border-bottom: 1px dotted #999;
+}
+
+body#tree_display div.view ul li span,
+body#tree_display div.view ul li a {
+    display: block;
+    float: left;
+}
+
+body#tree_display div.view ul li span.id {
+    text-align: right;
+    width: 2em;
+    margin-right: 2em;
+}
+
+body#tree_display div.view ul li a {
+    margin: 0 0.5em;
+}
+
+/* ログイン */
+body#login dl {
+    margin: 10px 0;
+}
+
+body#login dl dt {
+    float: left;
+    width: 10em;
+}
+
+body#login dl dd {
+    margin-left: 10em;
+}
+
+body#login dl dd input {
+    width: auto;
+    border: 1px solid #CCC;
+}
+
+body#login div.form {
+    float: none;
+    border: 0;
+}

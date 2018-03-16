@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-height: 1.7em;}
+
+/* base */
+.w100 {width:100px;}
+.w110 {width:110px;}
+.w120 {width:120px;}
+.w130 {width:130px;}
+.w140 {width:140px;}
+.w150 {width:150px;}
+.w160 {width:160px;}
+.w170 {width:170px;}
+.w180 {width:180px;}
+.w190 {width:190px;}
+.w200 {width:200px;}
+.w210 {width:210px;}
+.w220 {width:220px;}
+.w230 {width:230px;}
+.w240 {width:240px;}
+.w250 {width:250px;}
+.w260 {width:260px;}
+.w270 {width:270px;}
+.w275 {width:275px;}
+.w280 {width:280px;}
+.w290 {width:290px;}
+.w300 {width:300px;}
+.w310 {width:310px;}
+.w320 {width:320px;}
+.w330 {width:330px;}
+/*.w340 {width:340px;}*/
+.w350 {width:350px;}
+.w360 {width:360px;}
+.w370 {width:370px;}
+.w375 {width:375px;}
+.w380 {width:380px;}
+.w390 {width:390px;}
+.w400 {width:400px;}
+.w410 {width:410px;}
+.w420 {width:420px;}
+.w430 {width:430px;}
+.w440 {width:440px;}
+
+
+.txt-r {
+	text-align: right;
+}
+.txt-l {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+/* ---------------------------------------------------
+ ▼一覧ページ  #cover_index
+--------------------------------------------------- */
+#cover_index {}
+.top_txt {padding: 10px 0;margin: 10px;}
+
+
+/* ---------------------------------------------------
+ ▼詳細ページ 
+--------------------------------------------------- */
+
+
+/* title_tokushu - 特集タイトル */
+.title_tokushu {background: url(../img/interview/img_tokushuu.jpg) no-repeat top left;height: 60px;margin: 10px;}
+.title_tokushu h2 {margin: 0 0 0 70px;}
+
+
+/* box */
+.box {margin: 10px 10px 24px 10px;position: relative;}
+
+#boutou {margin: -14px 10px 24px 10px; background: #efefef;padding:14px 20px;}
+#boutou img {margin: 0 0 10px 0;}
+#boutou p {margin: 5px 0 0 0;}
+
+.box p {margin: 0.5em 0 0 0;}
+
+#cover_index .box {border-top: 1px solid #dddddd;padding: 20px 0 0 0;}
+
+#cover_index .box h3 {font-size: 18px;font-weight: bold;}
+#cover_page .box h3 {border-left:7px solid #6896e2;padding: 0 0 0 0.5em;margin: 0 0 10px 0;font-size:24px;font-weight: bold;}
+#cover_page .box h4 {font-size: 18px;font-weight: bold; color:#4c85e2;}
+
+.right_box {float:left;}
+.left_box {}
+.left_box p {}
+
+
+p.capture {padding: 0 14px 5px 0;margin:0.5em 0 0 0;font-size: 12px;color: #999;}
+
+
+
+
+/* 編集後記 */
+.editorial_note {background: #efefef;margin: 10px 10px 30px 10px;padding: 20px;}/* 編集後記 */
+.editorial_note h2 {font-weight:bold;font-size: 18px;padding: 0 0 0.5em 10px;}
+.editorial_note h3 {font-weight:bold;margin: 0 0 0.5em 0;}
+.inner_box {background: #fff;padding:10px;}
+
+
+
+/* サイドバー */
+.btn {margin: 0 0 10px 0;}
+
+/* サイドのボックス */
+.side_box {background: #fff;border: 1px solid #cccccc;padding: 10px;margin: 0 0 10px 0;}
+.side_box h2 {font-weight: bold;font-size: 18px;margin: 0.3em 0 0 0;}
+#kanren .side_box h2 {font-weight: bold;font-size: 18px;margin: 0.8em 0 0 0;}
+.side_box p {clear: both;}
+
+/* プロフィール */
+.profile {background: #fff;border: 1px solid #0064a3;padding: 10px;margin: 0 0 10px 0;}
+.profile img {padding: 0 10px 10px 0;}
+.profile h2 {font-weight: bold;font-size: 18px;margin: 0.8em 0 0 0;}
+.profile p {clear: both;}
+
+/* 関連記事 */
+#kanren {}
+.profile img {margin: 0;}
+#kanren h2 {background: url(../img/interview/img_list-style.png) no-repeat;padding: 1px 0 0 20px;margin: 5px 0 14px 0;border-bottom: 3px solid #b3cdf6;}
+#kanren li {list-style: disc outside;color: #ccc;margin: 0 0 0.3em 23px;}
+
+/* クリニック紹介 */
+#hospital_box {}
+p#hospital_title {font-size:18px;margin: 0.5em 0 0.2em 0;}
+
+
+/* 周辺のクリニック ex東京都のクリニック */
+#surrounding {border: 1px solid #72d361;}
+#surrounding h2 {
+font-weight: bold;
+font-size:14px;
+padding: 8px 12px 4px;
+margin:0 0 8px 0;
+background: url(../img/dotback.gif) #72d361;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+#surrounding dl {}
+#surrounding dt {}
+#surrounding dd {margin: 0 0 0.1em 0;padding: 0 0 0 2px;border-bottom: 1px dashed #ddd;text-align: right;}
+#surrounding dd a {display: inline-block;background:url(../img/icon_official.png) no-repeat left center;padding: 0.5em 0.5em 0.8em 1.5em;font-size:80%;}
+
+#surrounding .more {font-size: 80%;color:#999;background: none;text-align: left;}
+#surrounding .more a {display: inline-block;color: #999;margin:0.5em 0;padding:0; }
+
+

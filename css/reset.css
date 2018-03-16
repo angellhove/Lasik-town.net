@@ -1,0 +1,55 @@
+body,
+div,
+dl,dt,dd,
+ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote {margin: 0; padding: 0; font-weight: normal; font-size: 100%;}
+
+html {color: #333333; background-color: #FFF;}
+
+body {font: 14px/1.6 "メイリオ", "Meiryo", "MSゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif; *font-size:small; *font:x-small;}
+
+input {font-family: "メイリオ", "Meiryo", "MSゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;}
+
+img {border: 0; vertical-align: top;}
+
+ul, ol, dl {text-indent: 0;}
+
+li {list-style: none;}
+
+address {font-weight: normal;font-style: normal;}
+
+strong {font-weight: bold;}
+
+abbr {border: none;}
+
+fieldset {border: none;}
+
+.clear {clear: both;}
+.clearfix {zoom: 1;}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.supple {
+    font-size: 11px;
+}
+
+.error-message {
+    color: #F00;
+}
+
+.updnWatermark {  
+    color: #CCC;
+    padding: 6px;
+    z-index: 2;
+}

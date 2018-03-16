@@ -1,0 +1,766 @@
+/*========================================================================================================================================
+                                                            @media (min-width:300px)
+========================================================================================================================================*/
+@media (min-width:300px)  { 
+
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header-mrg{
+        margin-left:0px; 
+        margin-right:0px;
+    }
+
+    .content-mrg{
+        margin-left:15px; 
+        margin-right:15px;
+    }
+
+    /*Main Header*/
+
+    .header-img {
+        background-repeat: no-repeat;
+        background-position: 106% 122px;
+        background-image: url(../img/headerBack.png);
+        padding-bottom: 63px;
+    }
+
+    .container h1 {
+        font-size: 9px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        color: #FFF;
+    }
+
+
+
+    div.searchForm div.text input {
+        position: relative;
+        border: 1px solid #dbdbdb;
+        width: 190px;
+        padding: 2px 6px 4px;
+    }
+
+    .updnWatermark {
+        color: #CCC;
+        padding: 6px;
+        z-index: 2;
+        font-weight: 100;
+    }
+
+    .searchForm{
+        margin-top: 10px;
+        padding-right: 0px;
+    }
+    /*End Main Header*/
+
+    /*Navigation*/
+    div.Navnav {
+       background-color: #f8f8f8;
+       border-bottom: 1px solid #d6d6d6;
+       height: 31px;
+    }
+
+
+    div.Navnav ul li {
+        float: left;
+    }
+
+    div.Navnav ul li.link01 a {
+        width: 63px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 90px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 97px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 75px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li a {
+        display: block;
+        height: 58px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        text-indent: -9999px;
+    }
+    /* End Navigation*/
+
+    img#staff {
+        position: initial;
+        top: -230px;
+        right: -8px;
+    }
+
+    .b2-txt{
+        margin-right: 0px;
+    }
+
+    .p {
+        font-size: 10px;
+        color: #999;
+    }
+
+    .pict {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .line { /*Must hide*/
+        border-left: none;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .md3 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .md4-1{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .md4-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .md4-3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .hr-mobile{
+        visibility: visible;
+    }
+
+    .main-img {
+        height: 120px;
+        max-width: 100%;
+    }
+
+
+} /*end 300px*/
+
+/*========================================================================================================================================
+                                                            @media (min-width:390px)
+========================================================================================================================================*/
+@media (min-width:390px)  { 
+
+    /*Navigation*/
+    div.Navnav {
+       background-color: #f8f8f8;
+       border-bottom: 1px solid #d6d6d6;
+       height: 32px;
+    }
+
+
+    div.Navnav ul li {
+        float: left;
+    }
+
+    div.Navnav ul li.link01 a {
+        width: 65px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 96px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 101px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 79px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li a {
+        display: block;
+        height: 58px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        text-indent: -9999px;
+    }
+    /* End Navigation*/
+
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:422px)
+========================================================================================================================================*/
+
+@media (min-width:422px)  { 
+
+    div.Navnav ul li.link01 a {
+        width: 75px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 105px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 110px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 85px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%
+    }
+
+    div.Navnav {
+       background-color: #f8f8f8;
+       border-bottom: 1px solid #d6d6d6;
+       height: 38px;
+    }
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:446px)
+========================================================================================================================================*/
+
+@media (min-width:446px)  { 
+
+    div.Navnav ul li.link01 a {
+        width: 75px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 110px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 115px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 95px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%
+    }
+
+
+}
+
+
+/*========================================================================================================================================
+                                                            @media (min-width:510px)
+========================================================================================================================================*/
+@media (min-width:510px)  { 
+
+    /*Navigation*/
+    div.Navnav {
+       background-color: #f8f8f8;
+       border-bottom: 1px solid #d6d6d6;
+       height: 43px;
+    }
+
+
+    div.Navnav ul li {
+        float: left;
+    }
+
+    div.Navnav ul li.link01 a {
+        width: 87px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 128px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 140px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 108px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li a {
+        display: block;
+        height: 58px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        text-indent: -9999px;
+    }
+
+}
+
+
+/*========================================================================================================================================
+                                                            @media (min-width:540px)
+========================================================================================================================================*/
+@media (min-width:540px)  { 
+
+    /*Navigation*/
+    div.Navnav {
+       background-color: #f8f8f8;
+       border-bottom: 1px solid #d6d6d6;
+       height: 43px;
+    }
+
+    div.Navnav ul li {
+        float: left;
+    }
+
+    div.Navnav ul li.link01 a {
+        width: 87px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 128px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 140px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 108px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%
+    }
+
+    div.Navnav ul li a {
+        display: block;
+        height: 58px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        text-indent: -9999px;
+    }
+    /* End Navigation*/
+
+    img#staff {
+        position: initial;
+        top: -230px;
+        right: -8px;
+        margin: 0 auto;
+    }
+
+    .b2-txt{
+        margin-right: 0px;
+    }
+
+
+    .line { /*Must hide*/
+        border-left: none;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .hr-mobile{
+        visibility: visible;
+    }
+
+}
+
+
+/*========================================================================================================================================
+                                                            @media (min-width:630px)
+========================================================================================================================================*/
+@media (min-width:630px)  { 
+
+    .b2-txt{
+        margin-right: 269px;
+    }
+
+    img#staff {
+        position: absolute;
+        top: -230px;
+        right: -8px;
+    }
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:710px)
+========================================================================================================================================*/
+@media (min-width:710px)  { 
+
+    .header-img {
+        background-repeat: no-repeat;
+        background-position: 106% 97px;
+        background-image: url(../img/headerBack.png);
+        padding-bottom: 62px;
+    }
+
+    div.searchForm div.text input {
+        position: relative;
+        border: 1px solid #dbdbdb;
+        width: 295px;
+        padding: 2px 6px 4px;
+    }
+
+    .searchForm{
+        margin-top: -20px;
+        padding-right: 0px;
+    }
+
+    /*Navigation*/
+    div.Navnav {
+       background-color: #f8f8f8;
+       border-bottom: 1px solid #d6d6d6;
+          height: 60px;
+    }
+
+    div.Navnav ul li {
+        float: left;
+    }
+
+    div.Navnav ul li.link01 a {
+        width: 119px;
+        background-image: url(../img/gNavi01.png);
+        background-size: 100%;
+    }
+
+    div.Navnav ul li.link02 a {
+        width: 175px;
+        background-image: url(../img/gNavi02.png);
+        background-size: 100%;
+    }
+
+    div.Navnav ul li.link03 a {
+        width: 189px;
+        background-image: url(../img/gNavi03.png);
+        background-size: 100%;
+    }
+
+    div.Navnav ul li.link04 a {
+        width: 149px;
+        background-image: url(../img/gNavi04.png);
+        background-size: 100%;
+    }
+
+    div.Navnav ul li a {
+        display: block;
+        height: 58px;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        text-indent: -9999px;
+    }
+
+    img#staff {
+        position: absolute;
+        top: -230px;
+        right: -8px;
+    }
+
+    .line { /*Must hide*/
+        border-left: none;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .hr-mobile{
+        visibility: visible;
+    }
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:768px)
+========================================================================================================================================*/
+@media (min-width:768px)  { 
+
+    .header-img {
+        background-repeat: no-repeat;
+        background-position: 115% 97px;
+        background-image: url(../img/headerBack.png);
+        padding-bottom: 62px;
+    }
+
+    .searchForm{
+        margin-top: -20px;
+        padding-right: 0px;
+    }
+
+    img#staff {
+        position: absolute;
+        top: -72px;
+        right: -8px;
+    }
+
+    .b2-txt{
+            margin-right: -85px;
+    }
+
+
+    .line { /*Must hide*/
+        border-left: none;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .hr-mobile{
+        visibility: visible;
+    }
+
+    .main-img{
+        height: 100%;
+        max-width: 100%;
+    }
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:961px)
+========================================================================================================================================*/
+@media (min-width:961px)  { 
+
+    .header-mrg{
+        margin-left:55px; 
+        margin-right:55px;
+    }
+
+    .content-mrg{
+        margin-left:70px; 
+        margin-right:70px;
+    }
+
+    img#staff {
+        position: absolute;
+        top: -72px;
+        right: -8px;
+    }
+
+    .line { /*Must hide*/
+        border-left: none;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .hr-mobile{
+        visibility: visible;
+    }
+
+    .main-img{
+        height: 100%;
+        max-width: 100%;
+    }
+
+}
+/*========================================================================================================================================
+                                                            @media (min-width:992px)
+========================================================================================================================================*/
+
+@media (min-width:992px)  {
+
+    .header-img {
+        background-repeat: no-repeat;
+        background-position: 110% 80px;
+        background-image: url(../img/headerBack.png);
+        padding-bottom: 25px;
+    }
+
+
+    .searchForm{
+        margin-top: 30px;
+        padding-right: 0px;
+    }
+
+    img#staff {
+        position: absolute;
+        top: -60px;
+        right: -8px;
+    }
+
+    .b2-txt{
+        margin-right: -60px;
+    }
+
+    .pict {
+        margin-top: 95px;
+        margin-bottom: 50px;
+    }
+
+    .line { /*Must hide*/
+        border-left: 1px solid #CCC;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+    .md3 {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: -9px;
+        margin-bottom: 0px;
+    }
+
+    .md4-1{
+        padding-left: 0px;
+        padding-right: 5px;
+        margin-bottom: 0px;
+    }
+
+    .md4-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 0px;
+    }
+
+    .md4-3{
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .hr-mobile{
+        visibility: hidden;
+    }
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:1000px)
+========================================================================================================================================*/
+
+@media (min-width:1000px)  { 
+
+    .header-mrg{
+        margin-left:55px; 
+        margin-right:55px;
+    }
+
+    .content-mrg{
+        margin-left:70px; 
+        margin-right:70px;
+    }
+
+    .hr-mobile{
+        visibility: hidden;
+    }
+    .line { /*Must hide*/
+        border-left: 1px solid #CCC;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:1025px)
+========================================================================================================================================*/
+@media (min-width:1135px)  { 
+
+    .header-mrg{
+        margin-left:0px; 
+        margin-right:0px;
+    }
+
+    .content-mrg{
+        margin-left:15px; 
+        margin-right:15px;
+    }
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:1200px)
+========================================================================================================================================*/
+@media (min-width:1200px)  { 
+
+    .header-mrg{
+        margin-left:55px; 
+        margin-right:55px;
+    }
+
+    .content-mrg{
+        margin-left:70px; 
+        margin-right:70px;
+    }
+
+    .header-img{
+        background-repeat: no-repeat;
+        background-position: 30% 54px;
+        background-image: url(../img/headerBack.png);
+        padding-bottom: 0;
+    }
+    img#staff {
+        position: absolute;
+        top: -75px;
+        right: -8px;
+    }
+
+    .hr-mobile{
+        visibility: hidden;
+    }
+
+    .line { /*Must hide*/
+        border-left: 1px solid #CCC;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+
+
+}
+
+/*========================================================================================================================================
+                                                            @media (min-width:1281px)
+========================================================================================================================================*/
+
+@media (min-width:1281px)  { 
+
+    .hr-mobile{
+    visibility: hidden;
+}
+
+}
